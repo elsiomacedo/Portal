@@ -1,0 +1,101 @@
+body {
+	background: #323232;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	padding: 15px 50px;
+}
+
+
+/* Usado no Bloco da Logomarca */
+
+.marca { padding-left: 20px; }
+.marca-desc { line-height: 1.2; }
+.copy { 
+	bottom: 0; 
+	margin-left: 20px;
+	font-size: 15px;
+}
+/* Usado no Bloco da Texto do Sistema */
+.desc-sis {
+	font-size: 18px;	
+	letter-spacing:0.3px;
+	word-spacing: 1.5px;	
+ 	line-height: 1.1;
+ }
+ /* Definição de Cores */
+.azul { background: #438EB9; }
+.darkslategray { background: #2F4F4F; }
+
+
+.fotostatic { background: url('../img/fotostatic.png') no-repeat center bottom; }
+.imagebg-2 { background: #D3643B url('../img/people.png') no-repeat center bottom; }
+
+/* BOX do LOGIN Form */
+/* Content Styles */
+.login {
+	margin-top: 0px;
+}
+.outer-login { 
+	padding: 2% 5% 2% 5%; 
+	height: auto; 
+	width: 111%;
+	position: relative;
+	left: -5%; 
+	left: -30px;
+	right: 5%;
+	margin-right: -50px;
+	border: 5px solid #fff; 
+	overflow: hidden; }
+
+.input-login {
+	border-radius: 0 !important;
+	background: rgba(0,0,0,0.15) !important;
+	border: 0 !important;
+	font-weight: 300 !important;
+	font-size: 14px !important;
+	padding: 10px !important;
+	height: auto !important;
+	box-shadow: none !important;
+	color: #fff !important;
+	width: 100%;
+	margin: 5px 0; }
+
+.btn-login { 
+	margin-bottom: 5px; 
+	margin-top: 25px; 
+}
+
+/* Btn Blue */   
+.btn.blue {
+    color: white;
+    text-shadow: none;
+    background-color: #3D9AD1;
+    border-color: #3D9AD1;
+	font-size: 16px;
+}
+.btn.blue:hover,
+.btn.blue:focus,
+.btn.blue:active,
+.btn.blue.active,
+.btn.blue[disabled],
+.btn.blue.disabled {
+	background-color: transparent;
+    border-color: #3D9AD1;
+    font-weight: 700;
+	font-size: 16px;
+    color: white !important; }
+
+.login-ajuda { 
+	margin-top: 12px; 
+	font-size: 12px;
+}
+.content-slider {
+	width: 60%;
+	float: left; 
+}
+
+.tx_slider {
+	font-size: 22px;
+}	
+	
